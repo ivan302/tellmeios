@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041BB8D4218903FB009D20FD /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BB8D3218903FB009D20FD /* StoryCell.swift */; };
 		04373DE4217E5EAF00858982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE3217E5EAF00858982 /* AppDelegate.swift */; };
 		04373DE6217E5EAF00858982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE5217E5EAF00858982 /* ViewController.swift */; };
 		04373DE9217E5EAF00858982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04373DE7217E5EAF00858982 /* Main.storyboard */; };
@@ -16,9 +17,6 @@
 		04373E04217E5EB000858982 /* cuentame_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E03217E5EB000858982 /* cuentame_iosUITests.swift */; };
 		04373E16217E806F00858982 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E14217E806F00858982 /* Details.swift */; };
 		04373E17217E806F00858982 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E15217E806F00858982 /* Sections.swift */; };
-		043FEC3F2180B091007AFF93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEC3E2180B091007AFF93 /* DetailsViewController.swift */; };
-		043FEC402180B091007AFF93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEC3E2180B091007AFF93 /* DetailsViewController.swift */; };
-		043FEC412180B091007AFF93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEC3E2180B091007AFF93 /* DetailsViewController.swift */; };
 		228C8112015856D4182E9830 /* Pods_cuentame_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */; };
 		5D5F47826622D225C650FAC7 /* Pods_cuentame_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EB6CF1AE3B07E332A18E /* Pods_cuentame_ios.framework */; };
 		A4CD2F6FE72C3E71FF3A9223 /* Pods_cuentame_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215C1366E31CB971E007C2B1 /* Pods_cuentame_iosTests.framework */; };
@@ -42,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041BB8D3218903FB009D20FD /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
 		04373DE0217E5EAF00858982 /* cuentame_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuentame_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04373DE3217E5EAF00858982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04373DE5217E5EAF00858982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +56,6 @@
 		04373E05217E5EB000858982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04373E14217E806F00858982 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Details.swift; path = ../../../../../Downloads/codegen_5bce482e238d0/Details.swift; sourceTree = "<group>"; };
 		04373E15217E806F00858982 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sections.swift; path = ../../../../../Downloads/codegen_5bce482e238d0/Sections.swift; sourceTree = "<group>"; };
-		043FEC3E2180B091007AFF93 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuentame_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD9C779319D1287A301475A /* Pods-cuentame_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_ios/Pods-cuentame_ios.release.xcconfig"; sourceTree = "<group>"; };
 		1E8514F8A4FA38B61F5DD419 /* Pods-cuentame_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_iosUITests/Pods-cuentame_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +124,8 @@
 				04373E12217E7F2400858982 /* Cell */,
 				04373E11217E7F1100858982 /* model */,
 				04373DE3217E5EAF00858982 /* AppDelegate.swift */,
+				041BB8D3218903FB009D20FD /* StoryCell.swift */,
 				04373DE5217E5EAF00858982 /* ViewController.swift */,
-				043FEC3E2180B091007AFF93 /* DetailsViewController.swift */,
 				04373DE7217E5EAF00858982 /* Main.storyboard */,
 				04373DEA217E5EB000858982 /* Assets.xcassets */,
 				04373DEC217E5EB000858982 /* LaunchScreen.storyboard */,
@@ -418,7 +416,7 @@
 				04373E17217E806F00858982 /* Sections.swift in Sources */,
 				04373DE4217E5EAF00858982 /* AppDelegate.swift in Sources */,
 				04373E16217E806F00858982 /* Details.swift in Sources */,
-				043FEC3F2180B091007AFF93 /* DetailsViewController.swift in Sources */,
+				041BB8D4218903FB009D20FD /* StoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +425,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04373DF9217E5EB000858982 /* cuentame_iosTests.swift in Sources */,
-				043FEC402180B091007AFF93 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +433,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04373E04217E5EB000858982 /* cuentame_iosUITests.swift in Sources */,
-				043FEC412180B091007AFF93 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				DEVELOPMENT_TEAM = 9TGS53974W;
 				INFOPLIST_FILE = cuentame_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,7 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				DEVELOPMENT_TEAM = 9TGS53974W;
 				INFOPLIST_FILE = cuentame_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
