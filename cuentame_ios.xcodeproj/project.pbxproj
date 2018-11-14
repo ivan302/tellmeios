@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04373DE4217E5EAF00858982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE3217E5EAF00858982 /* AppDelegate.swift */; };
+		04373DE6217E5EAF00858982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE5217E5EAF00858982 /* ViewController.swift */; };
+		04373DE9217E5EAF00858982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04373DE7217E5EAF00858982 /* Main.storyboard */; };
+		04373DEB217E5EB000858982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04373DEA217E5EB000858982 /* Assets.xcassets */; };
+		04373DEE217E5EB000858982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04373DEC217E5EB000858982 /* LaunchScreen.storyboard */; };
+		04373DF9217E5EB000858982 /* cuentame_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DF8217E5EB000858982 /* cuentame_iosTests.swift */; };
+		04373E04217E5EB000858982 /* cuentame_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E03217E5EB000858982 /* cuentame_iosUITests.swift */; };
+		04373E16217E806F00858982 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E14217E806F00858982 /* Details.swift */; };
+		04373E17217E806F00858982 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E15217E806F00858982 /* Sections.swift */; };
+		043FEC3F2180B091007AFF93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEC3E2180B091007AFF93 /* DetailsViewController.swift */; };
+		043FEC402180B091007AFF93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEC3E2180B091007AFF93 /* DetailsViewController.swift */; };
+		043FEC412180B091007AFF93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FEC3E2180B091007AFF93 /* DetailsViewController.swift */; };
+		228C8112015856D4182E9830 /* Pods_cuentame_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */; };
+		5D5F47826622D225C650FAC7 /* Pods_cuentame_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EB6CF1AE3B07E332A18E /* Pods_cuentame_ios.framework */; };
+		A4CD2F6FE72C3E71FF3A9223 /* Pods_cuentame_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215C1366E31CB971E007C2B1 /* Pods_cuentame_iosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04373DF5217E5EB000858982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04373DD8217E5EAF00858982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04373DDF217E5EAF00858982;
+			remoteInfo = cuentame_ios;
+		};
+		04373E00217E5EB000858982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04373DD8217E5EAF00858982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04373DDF217E5EAF00858982;
+			remoteInfo = cuentame_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04373DE0217E5EAF00858982 /* cuentame_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuentame_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04373DE3217E5EAF00858982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04373DE5217E5EAF00858982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04373DE8217E5EAF00858982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04373DEA217E5EB000858982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04373DED217E5EB000858982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04373DEF217E5EB000858982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04373DF4217E5EB000858982 /* cuentame_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuentame_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04373DF8217E5EB000858982 /* cuentame_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuentame_iosTests.swift; sourceTree = "<group>"; };
+		04373DFA217E5EB000858982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04373DFF217E5EB000858982 /* cuentame_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuentame_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04373E03217E5EB000858982 /* cuentame_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuentame_iosUITests.swift; sourceTree = "<group>"; };
+		04373E05217E5EB000858982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04373E14217E806F00858982 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Details.swift; path = ../../../../../Downloads/codegen_5bce482e238d0/Details.swift; sourceTree = "<group>"; };
+		04373E15217E806F00858982 /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sections.swift; path = ../../../../../Downloads/codegen_5bce482e238d0/Sections.swift; sourceTree = "<group>"; };
+		043FEC3E2180B091007AFF93 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuentame_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD9C779319D1287A301475A /* Pods-cuentame_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_ios/Pods-cuentame_ios.release.xcconfig"; sourceTree = "<group>"; };
+		1E8514F8A4FA38B61F5DD419 /* Pods-cuentame_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_iosUITests/Pods-cuentame_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		215C1366E31CB971E007C2B1 /* Pods_cuentame_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuentame_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328F3289ADEB93237E44DB3B /* Pods-cuentame_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_iosTests/Pods-cuentame_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A39EB6CF1AE3B07E332A18E /* Pods_cuentame_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuentame_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B38D4644986CF2E014FCC87 /* Pods-cuentame_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_iosTests/Pods-cuentame_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		A249D3D22F70783267391773 /* Pods-cuentame_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_iosUITests/Pods-cuentame_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB11E79664706005349B6956 /* Pods-cuentame_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_ios/Pods-cuentame_ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04373DDD217E5EAF00858982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5F47826622D225C650FAC7 /* Pods_cuentame_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04373DF1217E5EB000858982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CD2F6FE72C3E71FF3A9223 /* Pods_cuentame_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04373DFC217E5EB000858982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228C8112015856D4182E9830 /* Pods_cuentame_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04373DD7217E5EAF00858982 = {
+			isa = PBXGroup;
+			children = (
+				04373DE2217E5EAF00858982 /* cuentame_ios */,
+				04373DF7217E5EB000858982 /* cuentame_iosTests */,
+				04373E02217E5EB000858982 /* cuentame_iosUITests */,
+				04373DE1217E5EAF00858982 /* Products */,
+				89F5F7717A1A0E15010E5A31 /* Pods */,
+				39D36623BB8A7767EBA8ADB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04373DE1217E5EAF00858982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04373DE0217E5EAF00858982 /* cuentame_ios.app */,
+				04373DF4217E5EB000858982 /* cuentame_iosTests.xctest */,
+				04373DFF217E5EB000858982 /* cuentame_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04373DE2217E5EAF00858982 /* cuentame_ios */ = {
+			isa = PBXGroup;
+			children = (
+				04373E13217E7F2E00858982 /* constants */,
+				04373E12217E7F2400858982 /* Cell */,
+				04373E11217E7F1100858982 /* model */,
+				04373DE3217E5EAF00858982 /* AppDelegate.swift */,
+				04373DE5217E5EAF00858982 /* ViewController.swift */,
+				043FEC3E2180B091007AFF93 /* DetailsViewController.swift */,
+				04373DE7217E5EAF00858982 /* Main.storyboard */,
+				04373DEA217E5EB000858982 /* Assets.xcassets */,
+				04373DEC217E5EB000858982 /* LaunchScreen.storyboard */,
+				04373DEF217E5EB000858982 /* Info.plist */,
+			);
+			path = cuentame_ios;
+			sourceTree = "<group>";
+		};
+		04373DF7217E5EB000858982 /* cuentame_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				04373DF8217E5EB000858982 /* cuentame_iosTests.swift */,
+				04373DFA217E5EB000858982 /* Info.plist */,
+			);
+			path = cuentame_iosTests;
+			sourceTree = "<group>";
+		};
+		04373E02217E5EB000858982 /* cuentame_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04373E03217E5EB000858982 /* cuentame_iosUITests.swift */,
+				04373E05217E5EB000858982 /* Info.plist */,
+			);
+			path = cuentame_iosUITests;
+			sourceTree = "<group>";
+		};
+		04373E11217E7F1100858982 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04373E14217E806F00858982 /* Details.swift */,
+				04373E15217E806F00858982 /* Sections.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04373E12217E7F2400858982 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04373E13217E7F2E00858982 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		39D36623BB8A7767EBA8ADB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A39EB6CF1AE3B07E332A18E /* Pods_cuentame_ios.framework */,
+				215C1366E31CB971E007C2B1 /* Pods_cuentame_iosTests.framework */,
+				1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F5F7717A1A0E15010E5A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB11E79664706005349B6956 /* Pods-cuentame_ios.debug.xcconfig */,
+				1DD9C779319D1287A301475A /* Pods-cuentame_ios.release.xcconfig */,
+				328F3289ADEB93237E44DB3B /* Pods-cuentame_iosTests.debug.xcconfig */,
+				4B38D4644986CF2E014FCC87 /* Pods-cuentame_iosTests.release.xcconfig */,
+				A249D3D22F70783267391773 /* Pods-cuentame_iosUITests.debug.xcconfig */,
+				1E8514F8A4FA38B61F5DD419 /* Pods-cuentame_iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04373DDF217E5EAF00858982 /* cuentame_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04373E08217E5EB000858982 /* Build configuration list for PBXNativeTarget "cuentame_ios" */;
+			buildPhases = (
+				E07EB566B5F055A24C4C49C9 /* [CP] Check Pods Manifest.lock */,
+				04373DDC217E5EAF00858982 /* Sources */,
+				04373DDD217E5EAF00858982 /* Frameworks */,
+				04373DDE217E5EAF00858982 /* Resources */,
+				8A5A3A427A4D6CA316A45169 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cuentame_ios;
+			productName = cuentame_ios;
+			productReference = 04373DE0217E5EAF00858982 /* cuentame_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04373DF3217E5EB000858982 /* cuentame_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04373E0B217E5EB000858982 /* Build configuration list for PBXNativeTarget "cuentame_iosTests" */;
+			buildPhases = (
+				97A4D75AFE0D798DDF3D900E /* [CP] Check Pods Manifest.lock */,
+				04373DF0217E5EB000858982 /* Sources */,
+				04373DF1217E5EB000858982 /* Frameworks */,
+				04373DF2217E5EB000858982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04373DF6217E5EB000858982 /* PBXTargetDependency */,
+			);
+			name = cuentame_iosTests;
+			productName = cuentame_iosTests;
+			productReference = 04373DF4217E5EB000858982 /* cuentame_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04373DFE217E5EB000858982 /* cuentame_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04373E0E217E5EB000858982 /* Build configuration list for PBXNativeTarget "cuentame_iosUITests" */;
+			buildPhases = (
+				B60C5BFA282651CB8FA6E333 /* [CP] Check Pods Manifest.lock */,
+				04373DFB217E5EB000858982 /* Sources */,
+				04373DFC217E5EB000858982 /* Frameworks */,
+				04373DFD217E5EB000858982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04373E01217E5EB000858982 /* PBXTargetDependency */,
+			);
+			name = cuentame_iosUITests;
+			productName = cuentame_iosUITests;
+			productReference = 04373DFF217E5EB000858982 /* cuentame_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04373DD8217E5EAF00858982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = UDB;
+				TargetAttributes = {
+					04373DDF217E5EAF00858982 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					04373DF3217E5EB000858982 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04373DDF217E5EAF00858982;
+					};
+					04373DFE217E5EB000858982 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04373DDF217E5EAF00858982;
+					};
+				};
+			};
+			buildConfigurationList = 04373DDB217E5EAF00858982 /* Build configuration list for PBXProject "cuentame_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04373DD7217E5EAF00858982;
+			productRefGroup = 04373DE1217E5EAF00858982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04373DDF217E5EAF00858982 /* cuentame_ios */,
+				04373DF3217E5EB000858982 /* cuentame_iosTests */,
+				04373DFE217E5EB000858982 /* cuentame_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04373DDE217E5EAF00858982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04373DEE217E5EB000858982 /* LaunchScreen.storyboard in Resources */,
+				04373DEB217E5EB000858982 /* Assets.xcassets in Resources */,
+				04373DE9217E5EAF00858982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04373DF2217E5EB000858982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04373DFD217E5EB000858982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A5A3A427A4D6CA316A45169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cuentame_ios/Pods-cuentame_ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cuentame_ios/Pods-cuentame_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A4D75AFE0D798DDF3D900E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cuentame_iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60C5BFA282651CB8FA6E333 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cuentame_iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07EB566B5F055A24C4C49C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cuentame_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04373DDC217E5EAF00858982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04373DE6217E5EAF00858982 /* ViewController.swift in Sources */,
+				04373E17217E806F00858982 /* Sections.swift in Sources */,
+				04373DE4217E5EAF00858982 /* AppDelegate.swift in Sources */,
+				04373E16217E806F00858982 /* Details.swift in Sources */,
+				043FEC3F2180B091007AFF93 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04373DF0217E5EB000858982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04373DF9217E5EB000858982 /* cuentame_iosTests.swift in Sources */,
+				043FEC402180B091007AFF93 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04373DFB217E5EB000858982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04373E04217E5EB000858982 /* cuentame_iosUITests.swift in Sources */,
+				043FEC412180B091007AFF93 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04373DF6217E5EB000858982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04373DDF217E5EAF00858982 /* cuentame_ios */;
+			targetProxy = 04373DF5217E5EB000858982 /* PBXContainerItemProxy */;
+		};
+		04373E01217E5EB000858982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04373DDF217E5EAF00858982 /* cuentame_ios */;
+			targetProxy = 04373E00217E5EB000858982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04373DE7217E5EAF00858982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04373DE8217E5EAF00858982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04373DEC217E5EB000858982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04373DED217E5EB000858982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04373E06217E5EB000858982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04373E07217E5EB000858982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04373E09217E5EB000858982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB11E79664706005349B6956 /* Pods-cuentame_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				INFOPLIST_FILE = cuentame_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udb.cuentame-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04373E0A217E5EB000858982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD9C779319D1287A301475A /* Pods-cuentame_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				INFOPLIST_FILE = cuentame_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udb.cuentame-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04373E0C217E5EB000858982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328F3289ADEB93237E44DB3B /* Pods-cuentame_iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				INFOPLIST_FILE = cuentame_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udb.cuentame-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuentame_ios.app/cuentame_ios";
+			};
+			name = Debug;
+		};
+		04373E0D217E5EB000858982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B38D4644986CF2E014FCC87 /* Pods-cuentame_iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				INFOPLIST_FILE = cuentame_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udb.cuentame-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuentame_ios.app/cuentame_ios";
+			};
+			name = Release;
+		};
+		04373E0F217E5EB000858982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A249D3D22F70783267391773 /* Pods-cuentame_iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				INFOPLIST_FILE = cuentame_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udb.cuentame-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cuentame_ios;
+			};
+			name = Debug;
+		};
+		04373E10217E5EB000858982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8514F8A4FA38B61F5DD419 /* Pods-cuentame_iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UNZKT65MK;
+				INFOPLIST_FILE = cuentame_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.udb.cuentame-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cuentame_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04373DDB217E5EAF00858982 /* Build configuration list for PBXProject "cuentame_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04373E06217E5EB000858982 /* Debug */,
+				04373E07217E5EB000858982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04373E08217E5EB000858982 /* Build configuration list for PBXNativeTarget "cuentame_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04373E09217E5EB000858982 /* Debug */,
+				04373E0A217E5EB000858982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04373E0B217E5EB000858982 /* Build configuration list for PBXNativeTarget "cuentame_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04373E0C217E5EB000858982 /* Debug */,
+				04373E0D217E5EB000858982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04373E0E217E5EB000858982 /* Build configuration list for PBXNativeTarget "cuentame_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04373E0F217E5EB000858982 /* Debug */,
+				04373E10217E5EB000858982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04373DD8217E5EAF00858982 /* Project object */;
+}
