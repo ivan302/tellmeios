@@ -36,12 +36,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="184.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patito" translatesAutoresizingMaskIntoConstraints="NO" id="Jpt-gN-wQb">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patito" translatesAutoresizingMaskIntoConstraints="NO" id="Jpt-gN-wQb">
                                                     <rect key="frame" x="20" y="10.5" width="196" height="163.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="163.5" id="Lnt-lK-JhZ"/>
+                                                        <constraint firstAttribute="width" constant="196" id="Qey-zo-JRd"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El patito  por defecto" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFM-RK-sdv">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El patito  por defecto" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFM-RK-sdv">
                                                     <rect key="frame" x="224" y="56" width="170" height="51"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="3i5-32-9Mb"/>
+                                                        <constraint firstAttribute="height" constant="51" id="O8f-cH-ErI"/>
                                                         <constraint firstAttribute="width" constant="170" id="fuN-ky-Eyz"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="22"/>
@@ -51,10 +57,15 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="KFM-RK-sdv" firstAttribute="top" secondItem="REe-C9-6jx" secondAttribute="topMargin" constant="45" id="4jY-qG-TQa"/>
+                                                <constraint firstAttribute="bottom" secondItem="Jpt-gN-wQb" secondAttribute="bottom" constant="10.5" id="7LV-ff-hh5"/>
                                                 <constraint firstItem="KFM-RK-sdv" firstAttribute="trailing" secondItem="REe-C9-6jx" secondAttribute="trailingMargin" id="BEJ-Jx-8oI"/>
+                                                <constraint firstItem="KFM-RK-sdv" firstAttribute="top" secondItem="REe-C9-6jx" secondAttribute="topMargin" constant="45" id="Blx-oP-Oui"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="KFM-RK-sdv" secondAttribute="bottom" constant="67" id="G6m-fZ-X9Q"/>
+                                                <constraint firstItem="Jpt-gN-wQb" firstAttribute="leading" secondItem="REe-C9-6jx" secondAttribute="leading" constant="20" id="Whh-eh-Pq6"/>
                                                 <constraint firstItem="Jpt-gN-wQb" firstAttribute="bottom" secondItem="REe-C9-6jx" secondAttribute="bottomMargin" id="Xqs-dW-tKb"/>
                                                 <constraint firstItem="Jpt-gN-wQb" firstAttribute="centerY" secondItem="REe-C9-6jx" secondAttribute="centerY" id="YOP-N9-jXo"/>
+                                                <constraint firstItem="Jpt-gN-wQb" firstAttribute="top" secondItem="REe-C9-6jx" secondAttribute="top" constant="10.5" id="eFb-0D-Wqv"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="KFM-RK-sdv" secondAttribute="bottom" constant="67" id="ms5-Uk-kn6"/>
                                                 <constraint firstItem="KFM-RK-sdv" firstAttribute="leading" secondItem="Jpt-gN-wQb" secondAttribute="trailing" constant="8" symbolic="YES" id="u6Q-gI-KmU"/>
                                                 <constraint firstItem="Jpt-gN-wQb" firstAttribute="leading" secondItem="REe-C9-6jx" secondAttribute="leadingMargin" id="v0W-MH-ktp"/>
                                             </constraints>
