@@ -19,7 +19,10 @@
 		04764C84219E691D007E468E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE5217E5EAF00858982 /* ViewController.swift */; };
 		04764C8B219E6B45007E468E /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04764C89219E6B45007E468E /* Sections.swift */; };
 		04764C8C219E6B45007E468E /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04764C8A219E6B45007E468E /* Details.swift */; };
-		04764C8E219E7026007E468E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C8D219E7026007E468E /* Alamofire.framework */; };
+		04764C8E219E7026007E468E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C8D219E7026007E468E /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		04764C90219EFA38007E468E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C8F219EFA38007E468E /* SDWebImage.framework */; };
+		04764C92219EFA3E007E468E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C91219EFA3E007E468E /* SwiftyJSON.framework */; };
+		04764C94219F1DC1007E468E /* DetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04764C93219F1DC1007E468E /* DetViewController.swift */; };
 		228C8112015856D4182E9830 /* Pods_cuentame_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */; };
 		5D5F47826622D225C650FAC7 /* Pods_cuentame_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EB6CF1AE3B07E332A18E /* Pods_cuentame_ios.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A4CD2F6FE72C3E71FF3A9223 /* Pods_cuentame_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215C1366E31CB971E007C2B1 /* Pods_cuentame_iosTests.framework */; };
@@ -60,6 +63,9 @@
 		04764C89219E6B45007E468E /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sections.swift; path = ../../../Downloads/codegen_5bee30dfc6d16/Sections.swift; sourceTree = "<group>"; };
 		04764C8A219E6B45007E468E /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Details.swift; path = ../../../Downloads/codegen_5bee30dfc6d16/Details.swift; sourceTree = "<group>"; };
 		04764C8D219E7026007E468E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04764C8F219EFA38007E468E /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04764C91219EFA3E007E468E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04764C93219F1DC1007E468E /* DetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetViewController.swift; sourceTree = "<group>"; };
 		1DA49259712CA917D5527ADE /* Pods_cuentame_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuentame_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD9C779319D1287A301475A /* Pods-cuentame_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_ios/Pods-cuentame_ios.release.xcconfig"; sourceTree = "<group>"; };
 		1E8514F8A4FA38B61F5DD419 /* Pods-cuentame_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuentame_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuentame_iosUITests/Pods-cuentame_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04764C92219EFA3E007E468E /* SwiftyJSON.framework in Frameworks */,
+				04764C90219EFA38007E468E /* SDWebImage.framework in Frameworks */,
 				04764C8E219E7026007E468E /* Alamofire.framework in Frameworks */,
 				5D5F47826622D225C650FAC7 /* Pods_cuentame_ios.framework in Frameworks */,
 			);
@@ -129,6 +137,7 @@
 				04764C89219E6B45007E468E /* Sections.swift */,
 				04373DE3217E5EAF00858982 /* AppDelegate.swift */,
 				041BB8D3218903FB009D20FD /* StoryCell.swift */,
+				04764C93219F1DC1007E468E /* DetViewController.swift */,
 				04373DE5217E5EAF00858982 /* ViewController.swift */,
 				04373DE7217E5EAF00858982 /* Main.storyboard */,
 				04373DEA217E5EB000858982 /* Assets.xcassets */,
@@ -159,6 +168,8 @@
 		39D36623BB8A7767EBA8ADB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04764C91219EFA3E007E468E /* SwiftyJSON.framework */,
+				04764C8F219EFA38007E468E /* SDWebImage.framework */,
 				04764C8D219E7026007E468E /* Alamofire.framework */,
 				3A39EB6CF1AE3B07E332A18E /* Pods_cuentame_ios.framework */,
 				215C1366E31CB971E007C2B1 /* Pods_cuentame_iosTests.framework */,
@@ -191,7 +202,7 @@
 				04373DDC217E5EAF00858982 /* Sources */,
 				04373DDD217E5EAF00858982 /* Frameworks */,
 				04373DDE217E5EAF00858982 /* Resources */,
-				8A5A3A427A4D6CA316A45169 /* [CP] Embed Pods Frameworks */,
+				562F624407A21A26578F6B12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,7 +322,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8A5A3A427A4D6CA316A45169 /* [CP] Embed Pods Frameworks */ = {
+		562F624407A21A26578F6B12 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,6 +407,7 @@
 			files = (
 				04373DE6217E5EAF00858982 /* ViewController.swift in Sources */,
 				04764C8C219E6B45007E468E /* Details.swift in Sources */,
+				04764C94219F1DC1007E468E /* DetViewController.swift in Sources */,
 				04764C8B219E6B45007E468E /* Sections.swift in Sources */,
 				04373DE4217E5EAF00858982 /* AppDelegate.swift in Sources */,
 				041BB8D4218903FB009D20FD /* StoryCell.swift in Sources */,
@@ -513,6 +525,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -567,6 +580,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -579,6 +593,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TGS53974W;
 				INFOPLIST_FILE = cuentame_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,6 +613,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TGS53974W;
 				INFOPLIST_FILE = cuentame_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

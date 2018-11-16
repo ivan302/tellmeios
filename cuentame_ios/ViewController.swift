@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import Alamofire
 import SwiftyJSON
+
+import Alomafire
 import SDWebImage
 import AVFoundation
 
@@ -63,7 +64,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         self.storyList.removeAll()
         for item in data.arrayValue{
             
-            var story:Sections = Sections()
+            var story:Section = Sections()
             story.title = item["title"].string!
             story.image = item["image"].string!
             
