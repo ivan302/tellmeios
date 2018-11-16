@@ -12,7 +12,7 @@ import SwiftyJSON
 import SDWebImage
 import AVFoundation
 
-class ViewController: UIViewController,  UITableViewDataSource, UITableViewDelegate{
+class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegate{
     
 
     @IBOutlet weak var storyColection: UITableView!
