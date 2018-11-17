@@ -15,10 +15,10 @@
 		04373DEE217E5EB000858982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04373DEC217E5EB000858982 /* LaunchScreen.storyboard */; };
 		04373DF9217E5EB000858982 /* cuentame_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DF8217E5EB000858982 /* cuentame_iosTests.swift */; };
 		04373E04217E5EB000858982 /* cuentame_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373E03217E5EB000858982 /* cuentame_iosUITests.swift */; };
+		043FB30E219F91D100674E21 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB30D219F91D100674E21 /* Detail.swift */; };
+		043FB310219F91E400674E21 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB30F219F91E400674E21 /* Sections.swift */; };
 		04764C83219E691C007E468E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE5217E5EAF00858982 /* ViewController.swift */; };
 		04764C84219E691D007E468E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04373DE5217E5EAF00858982 /* ViewController.swift */; };
-		04764C8B219E6B45007E468E /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04764C89219E6B45007E468E /* Sections.swift */; };
-		04764C8C219E6B45007E468E /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04764C8A219E6B45007E468E /* Details.swift */; };
 		04764C8E219E7026007E468E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C8D219E7026007E468E /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		04764C90219EFA38007E468E /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C8F219EFA38007E468E /* SDWebImage.framework */; };
 		04764C92219EFA3E007E468E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04764C91219EFA3E007E468E /* SwiftyJSON.framework */; };
@@ -60,8 +60,8 @@
 		04373DFF217E5EB000858982 /* cuentame_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuentame_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04373E03217E5EB000858982 /* cuentame_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuentame_iosUITests.swift; sourceTree = "<group>"; };
 		04373E05217E5EB000858982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04764C89219E6B45007E468E /* Sections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sections.swift; path = ../../../Downloads/codegen_5bee30dfc6d16/Sections.swift; sourceTree = "<group>"; };
-		04764C8A219E6B45007E468E /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Details.swift; path = ../../../Downloads/codegen_5bee30dfc6d16/Details.swift; sourceTree = "<group>"; };
+		043FB30D219F91D100674E21 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		043FB30F219F91E400674E21 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
 		04764C8D219E7026007E468E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04764C8F219EFA38007E468E /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04764C91219EFA3E007E468E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,8 +133,7 @@
 		04373DE2217E5EAF00858982 /* cuentame_ios */ = {
 			isa = PBXGroup;
 			children = (
-				04764C8A219E6B45007E468E /* Details.swift */,
-				04764C89219E6B45007E468E /* Sections.swift */,
+				043FB30C219F91B800674E21 /* model */,
 				04373DE3217E5EAF00858982 /* AppDelegate.swift */,
 				041BB8D3218903FB009D20FD /* StoryCell.swift */,
 				04764C93219F1DC1007E468E /* DetViewController.swift */,
@@ -163,6 +162,15 @@
 				04373E05217E5EB000858982 /* Info.plist */,
 			);
 			path = cuentame_iosUITests;
+			sourceTree = "<group>";
+		};
+		043FB30C219F91B800674E21 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				043FB30D219F91D100674E21 /* Detail.swift */,
+				043FB30F219F91E400674E21 /* Sections.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		39D36623BB8A7767EBA8ADB0 /* Frameworks */ = {
@@ -406,9 +414,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04373DE6217E5EAF00858982 /* ViewController.swift in Sources */,
-				04764C8C219E6B45007E468E /* Details.swift in Sources */,
+				043FB310219F91E400674E21 /* Sections.swift in Sources */,
+				043FB30E219F91D100674E21 /* Detail.swift in Sources */,
 				04764C94219F1DC1007E468E /* DetViewController.swift in Sources */,
-				04764C8B219E6B45007E468E /* Sections.swift in Sources */,
 				04373DE4217E5EAF00858982 /* AppDelegate.swift in Sources */,
 				041BB8D4218903FB009D20FD /* StoryCell.swift in Sources */,
 			);
